@@ -1,0 +1,38 @@
+/* Project.css */
+
+.projects {
+    position: relative;
+    background-color: #1a1a1a; /* Set your preferred background color */
+    padding: 80px 0;
+  }
+  
+  .project_card {
+    border: 1px solid #3d3d3d; /* Set border color */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Set box-shadow */
+    transition: box-shadow 0.3s ease-in-out; 
+   
+  }
+  .project_card:hover {
+    box-shadow: 0 8px 16px rgba(255, 0, 119, 0.4);; /* Change box-shadow on hover */
+  }
+  
+  .project_card h2 {
+    color: #ff0077; /* Set title color */
+  }
+  
+  .project_card p {
+    color: #b3b3b3; /* Set description color */
+  }
+  
+  .project_card a {
+    color: #ff0077; /* Set link color */
+    text-decoration: none;
+  }
+  
+  .project_card a:hover {
+    text-decoration: underline;
+  }
+  

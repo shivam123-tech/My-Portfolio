@@ -1,0 +1,7 @@
+.services{
+    background: url(../../../public/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
+    height: auto;
+}

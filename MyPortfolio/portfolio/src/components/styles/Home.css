@@ -1,0 +1,49 @@
+.intro{
+    background: #151515 url(../../../public/intro-bg.jpg) no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    min-height: 720px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.h4_intro{
+    font-family: "poppins-bold", sans-serif;
+}
+
+.h1_intro{
+    font-family: "poppins-medium", sans-serif;
+}
+
+.h5_intro{
+    font-family: "lora-regular", serif;
+}
+
+
+
+#animateText_line::after{
+    content: "|";
+    color: #ff0077;
+    animation: blink 1s  infinite ;
+}
+@keyframes blink {
+    from{
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+
+@media screen and (min-width:768px){
+    .intro_partition::after{
+    content: "|";
+    padding-inline: 2rem;
+    color:rgba(255, 255, 255, 0.3);
+}
+}
